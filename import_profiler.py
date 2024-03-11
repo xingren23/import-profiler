@@ -130,6 +130,5 @@ class ImportProfilerContext(object):
         finally:
             self._import_stack.pop(info)
 
-
 def profile_import():
     return ImportProfilerContext()
